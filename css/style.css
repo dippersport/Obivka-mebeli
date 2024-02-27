@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+
+}
+.desctop{
+	display:block;
+}
+.logo{
+	max-height:50px;
+}
+
+@media(max-width:768px){
+	.desctop{
+	display:none;
+}
+}
+
+.main-header{
+	background:url('../img/5555.png') no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	min-height: 115vh;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
